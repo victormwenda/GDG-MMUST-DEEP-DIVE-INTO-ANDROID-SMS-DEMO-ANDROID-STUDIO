@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/saved_messages_linearLayout_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScheduledMessages">
+
+    <include
+        android:id="@+id/saved_messages_include_actionBar"
+        layout="@layout/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ListView android:layout_margin="10dp"
+        android:id="@+id/saved_messages_listView_savedMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#aabbcc"
+        android:dividerHeight="2dp"
+        tools:listitem="@layout/saved_messages_ui"></ListView>
+
+</LinearLayout>

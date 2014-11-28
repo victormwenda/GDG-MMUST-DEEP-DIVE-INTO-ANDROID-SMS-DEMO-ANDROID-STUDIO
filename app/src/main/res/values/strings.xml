@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GDGMMUSTSMSDEMO</string>
+    <string name="dev_name">Victor Mwenda</string>
+    <string name="send_message">Send Message</string>
+    <string name="save_message">Save Message</string>
+    <string name="splash">Splash</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logo_color" >#0AB3F1</color>
+    <color name="activity_label" >#aabbcc</color>
+    <color name="dev_color">#999</color>
+</resources>

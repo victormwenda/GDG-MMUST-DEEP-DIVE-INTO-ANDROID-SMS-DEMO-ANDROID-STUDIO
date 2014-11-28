@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/send_message_linearLayout_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/send_message_include_actionBar"
+        layout="@layout/action_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/send_message_relativeLayout_main_ui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/send_message_autocompleteTextView_to"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" android:inputType="phone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="To" />
+
+        <ImageView
+            android:id="@+id/send_message_imageView_contact"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="22dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/contact" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/send_message_editText_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="top|left"
+        android:hint="Compose message"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:padding="10dp"
+        android:textColorHint="#777" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/send_message"
+        android:textColor="#669900"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/send_message_button_send" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="40dp" android:layout_marginTop="20dp"
+        android:paddingRight="40dp"
+        android:text="@string/save_message"
+        android:textColor="#669900"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/send_message_button_save" />
+</LinearLayout>

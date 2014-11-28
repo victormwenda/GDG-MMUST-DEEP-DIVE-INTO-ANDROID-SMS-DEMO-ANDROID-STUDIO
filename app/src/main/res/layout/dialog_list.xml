@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" android:paddingBottom="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_list_textView_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:text="Victor Mwenda"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/logo_color" />
+
+</RelativeLayout>
